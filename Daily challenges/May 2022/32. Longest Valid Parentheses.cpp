@@ -7,7 +7,8 @@ public:
             if (s[i] == '(') st.push(i);
             else {
                 if (!st.empty()) {
-                    if (s[st.top()] == '(') st.pop();
+                    if (s[st.top()
+                    ] == '(') st.pop();
                     else st.push(i);
                 }
                 else st.push(i);
