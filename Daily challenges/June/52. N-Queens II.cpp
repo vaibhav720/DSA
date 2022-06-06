@@ -24,3 +24,5 @@ void dfs(int i, vector<int> &row, vector<bool> &col, vector<bool>& main, vector<
     }
 }
 };
+
+// some other changes in the program
